@@ -8,9 +8,10 @@ this is supposed to calculate the area for some geometric shapes for example:
  
 this is how you can see the output:
 
-    ```python
-print(ls\[0](1))
-print(ls\[1](2))
-print(ls\[2](2, 4))
-print(ls\[3](4, 5))
+```
+ls = get_func(['square', 'circle', 'rectangle','triangle'])
+print(ls[0](1))
+print(ls[1](2))
+print(ls[2](2, 4))
+print(ls[3](4, 5))
 ```
