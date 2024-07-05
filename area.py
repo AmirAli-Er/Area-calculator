@@ -14,5 +14,3 @@ def get_func(ls):
             function_list.append(lambda h, g: (g*h)/2)
     return function_list
 
-
-ls = get_func(['square', 'circle', 'rectangle', 'triangle'])
